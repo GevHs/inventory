@@ -1,0 +1,37 @@
+.inv_title{
+    letter-spacing: 3px;
+    font-family: sans-serif;
+    font-size: 63px;
+    padding-bottom: 20px;
+}
+
+.inv_subTitle{
+    font-family: sans-serif;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.home-blog{
+  display: flex;
+  margin-top: 30px;
+   gap: 70px;
+}
+
+.textColorBlog::before{
+  content: "";
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: aqua;
+  margin-right: 5px;
+}
+
+.imageBlok{
+    height: 280px;
+}
+
+.gallery{
+    display: flex;
+    margin-top: 15px;
+    gap: 5px;
+}
